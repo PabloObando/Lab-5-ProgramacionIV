@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+:root {
+  font-family: 'Orbitron', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: dark;
+  background-color: #0d0d0d;
+  color: #00ffc8;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 0 0 10px #00ffc8;
+}
+
+button {
+  font-family: inherit;
+  transition: all 0.3s ease;
+}

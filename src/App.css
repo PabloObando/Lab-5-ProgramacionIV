@@ -1,0 +1,82 @@
+#root {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffc8;
+  text-shadow: 0 0 8px #00ffc8, 0 0 12px #00575b;
+  background-color: #0d0d0d;
+}
+
+#root div {
+  border: 3px solid #00ffc8;
+  border-radius: 20px;
+  padding: 2rem;
+  background: #111;
+  box-shadow: 0 0 20px #00ffc8;
+  margin-bottom: 2rem;
+}
+
+#root div h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00ffc8;
+  text-shadow: 0 0 5px #00ffc8, 0 0 10px #00575b;
+}
+
+#root div input {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid #00ffc8;
+  background: #000;
+  color: #00ffc8;
+  outline: none;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px #00ffc8;
+}
+
+#root div button {
+  font-size: 1.1rem;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #111;
+  color: #00ffc8;
+  border: 2px solid #00ffc8;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #00ffc8;
+}
+
+#root div button:hover {
+  background-color: #00ffc8;
+  color: #111;
+  box-shadow: 0 0 20px #00ffc8, 0 0 40px #00ffc8;
+}
+
+#root div button:last-of-type {
+  background-color: #ff0040;
+  border: 2px solid #ff0040;
+  color: white;
+  box-shadow: 0 0 10px #ff0040;
+}
+
+#root div button:last-of-type:hover {
+  background-color: white;
+  color: #ff0040;
+  box-shadow: 0 0 20px #ff0040, 0 0 40px #ff0040;
+}
+
+#root div li {
+  font-size: 1.3rem;
+  font-weight: bold;
+  list-style-type: none;
+  margin: 1rem 0;
+  color: #fff;
+}
+
+#root div li input[type='checkbox'] {
+  margin-right: 0.5rem;
+}
